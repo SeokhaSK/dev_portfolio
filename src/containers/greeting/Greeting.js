@@ -16,8 +16,15 @@ export default function Greeting() {
     return null;
   }
   return (
-    <Fade bottom duration={1000} distance="40px">
+    <Fade bottom duration={1000} distance="50%">
       <div className="greet-main" id="greeting">
+        <div border-radius="30px" border="2px solid red">
+          <img
+            alt="man sitting on table"
+            src={require("../../assets/images/Seokha.jpeg")}
+            class="profile"
+          ></img>
+        </div>
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>

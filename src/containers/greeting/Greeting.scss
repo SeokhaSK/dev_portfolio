@@ -17,6 +17,14 @@
   display: flex;
 }
 
+.profile {
+  max-width: 40%;
+  height: auto;
+  width: auto;
+  border-radius: 30px;
+  border: 5px solid gray;
+}
+
 .subTitle {
   color: $subTitle !important;
 }
