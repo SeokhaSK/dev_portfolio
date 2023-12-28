@@ -1,11 +1,15 @@
 {
   "files": {
     "main.css": "/dev_portfolio/static/css/main.7aaf1af0.css",
-    "main.js": "/dev_portfolio/static/js/main.ede339f5.js",
+    "main.js": "/dev_portfolio/static/js/main.77f88fb7.js",
     "static/css/64.bba8fa55.chunk.css": "/dev_portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/dev_portfolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/dev_portfolio/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.bda0d7b7.chunk.js": "/dev_portfolio/static/js/769.bda0d7b7.chunk.js",
+    "static/media/UCRList.png": "/dev_portfolio/static/media/UCRList.9ba611c6353e02798ebc.png",
+    "static/media/campusEvents.png": "/dev_portfolio/static/media/campusEvents.783c63815df7bc7319a8.png",
+    "static/media/arduinoTetris.jpg": "/dev_portfolio/static/media/arduinoTetris.a18b39c700516a360393.jpg",
+    "static/media/randomGenPic.jpg": "/dev_portfolio/static/media/randomGenPic.334d6920fa3918b41d6a.jpg",
     "static/media/Montserrat-Regular.ttf": "/dev_portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Seokha.jpeg": "/dev_portfolio/static/media/Seokha.e2dba499761503869d4c.jpeg",
     "static/media/UCR_Logo.png": "/dev_portfolio/static/media/UCR_Logo.96cbb6859283b9421082.png",
@@ -13,20 +17,16 @@
     "static/media/SMC_Logo.png": "/dev_portfolio/static/media/SMC_Logo.e70006faa0fe2f0063e1.png",
     "static/media/manOnTable.svg": "/dev_portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/contactMailDark.svg": "/dev_portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
-    "static/media/quoraLogo.png": "/dev_portfolio/static/media/quoraLogo.85eb29f4d52320c8ed99.png",
     "static/media/developerActivity.svg": "/dev_portfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/googleAssistantLogo.webp": "/dev_portfolio/static/media/googleAssistantLogo.f720c71652579588524a.webp",
-    "static/media/airbnbLogo.png": "/dev_portfolio/static/media/airbnbLogo.e8497507db673acd3991.png",
-    "static/media/facebookLogo.png": "/dev_portfolio/static/media/facebookLogo.f46d68b24e9b4f73ee8b.png",
+    "static/media/dataAnalysisLogo.jpeg": "/dev_portfolio/static/media/dataAnalysisLogo.b46daeb5d544e38640af.jpeg",
     "static/media/codeInLogo.webp": "/dev_portfolio/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
     "static/media/skill.svg": "/dev_portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/pwaLogo.webp": "/dev_portfolio/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
-    "static/media/saayaHealthLogo.webp": "/dev_portfolio/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
-    "static/media/nextuLogo.webp": "/dev_portfolio/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/dev_portfolio/index.html",
     "static/media/talksCardBack.svg": "/dev_portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.7aaf1af0.css.map": "/dev_portfolio/static/css/main.7aaf1af0.css.map",
-    "main.ede339f5.js.map": "/dev_portfolio/static/js/main.ede339f5.js.map",
+    "main.77f88fb7.js.map": "/dev_portfolio/static/js/main.77f88fb7.js.map",
     "64.bba8fa55.chunk.css.map": "/dev_portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/dev_portfolio/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/dev_portfolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -34,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.7aaf1af0.css",
-    "static/js/main.ede339f5.js"
+    "static/js/main.77f88fb7.js"
   ]
 }
