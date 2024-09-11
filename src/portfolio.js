@@ -23,7 +23,9 @@ const greeting = {
   username: "Seokha Kang",
   title: "Hi all, I'm Seokha",
   subTitle: emoji(
-    "I am a student studying computer science. I am pursuing a Combined Bachelor+Master program at University of California, Riverside. Throughout my studies, I have been focusing on software development, databases, and machine learning."
+    "I am a student studying computer science.\
+    I am pursuing a Combined Bachelor+Master program at University of California, Riverside.\
+    Throughout my studies, I have been focusing on software development, databases, and machine learning."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,7 +35,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/seokhask",
+  github: "https://github.com/kangseokha",
   linkedin: "https://www.linkedin.com/in/seokha-kang/",
   gmail: "Seokha.S.K@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -45,14 +47,16 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "PASSIONATE FULL STACK DEVELOPER EXPLORING VARIOUS TECH STACKS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop interactive Front-end / Back-end systems for web and mobile applications using Flutter, React, and ExpressJS"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Create and manage databases using MongoDB and PostgreSQL for efficient data handling"
+    ),
+    emoji(
+      "⚡  Implement AI-powered features through OpenAI API for enhanced content generation"
     )
   ],
 
@@ -61,16 +65,16 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "flutter",
+      fontAwesomeClassname: "fa-brands fa-flutter"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "dart",
+      fontAwesomeClassname: "fa-brands fa-dart-lang"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "firebase",
+      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "JavaScript",
@@ -84,10 +88,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -101,12 +102,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fa-brands fa-java"
     },
     {
       skillName: "docker",
@@ -123,24 +124,24 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Californica, Riverside",
-      logo: require("./assets/images/UCR_Logo.png"),
+      logo: require("./assets/images/UCR_Logo_2.jpg"),
       subHeader: "Bachelor & Master of Science in Computer Science",
-      duration: "September 2021 - December 2025",
-      gpa: "GPA: 3.7/4.0",
-      desc: "Participated in the research of XXX and published 3 papers1.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      duration: "September 2021 - Present",
+      gpa: "GPA: (BS)3.62, (MS)3.66",
+      desc: "Expected Graduation: December 2025"
     },
     {
       schoolName: "Santa Monica College",
-      logo: require("./assets/images/SMC_Logo.png"),
+      logo: require("./assets/images/Santa_Monica_College_Logo.png"),
       subHeader: "Computer Science and Mathematics Focus",
       duration: "February 2019 - June 2021",
       gpa: "GPA: 4.0/4.0",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Completed courses in Math, data structures, C++ Programming, Java Programming"
+      // descBullets: [
+      //   "Mathematics: Calculus I, II, III, Linear Algebra",
+      //   "Data Structures: Data Structures with C++, with Java",
+      //   "Programming: C++ Programming, Advanced Java"
+      // ]
     }
   ]
 };
@@ -175,26 +176,34 @@ const workExperiences = {
       role: "Researcher",
       company: "German Car Data Analysis",
       companylogo: require("./assets/images/dataAnalysisLogo.jpeg"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "July 2023 – Oct 2023",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Conducted comprehensive data cleaning and analysis on German ride-sharing data using Excel to identify trends in car preferences among Uber drivers in Germany.",
+        "Cleaned car model names and matched names on other datasets(German Car Sales Data, Car Specifications Data ,and German Uber Drivers Dataset) using look-up tables.",
+        "Appended vehicle specifications and sales figures for each Uber driver to enhance data comprehensiveness"
       ]
     },
     {
       role: "Participant",
       company: "Google Software Program Sprint",
       companylogo: require("./assets/images/google.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "May 2022 – Aug 2022",
+      descBullets: [
+        "Collaborated with a team of peers to design and implement a website leveraging various Google Cloud Platform APls, including App Engine and Datastore.",
+        "Learned about client-server communication and the usage of libraries for web dev through weekly- walkthrough.",
+        "Participated in a weekly code review for a portfolio website and a team project from a Google software engineer."
+      ]
     },
     {
       role: "President",
       company: "Computer Science Club",
       companylogo: require("./assets/images/SMC_Logo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Nov 2019 – Jun 2021",
+      descBullets: [
+        "Founded a Korean-based algorithm studying club in Santa Monica College.",
+        "Coordinated programming exercise assignments to individual cohorts and moderated for completion.",
+        "Conferred with professors regarding optimal data structure/algorithm design"
+      ]
     }
   ]
 };
@@ -211,13 +220,13 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "My Projects On and Off campus",
   projects: [
     {
       image: require("./assets/images/randomGenPic.jpg"),
       projectName: "Random Things Generator",
       projectDesc:
-        "Generate the description of random things using ChatGPT API",
+        "Developed an AI-based generator using OpenAI’s ChatGPT API to create diverse descriptions of random subjects for creative ideation. \n Built and integrated a CRUD system in MongoDB for efficient management of content generation, retrieval, and updates. Additionally, implemented a query system to communicate with the ChatGPT server, sending selected options for content generation.",
       footerLink: [
         {
           name: "Visit Github",
@@ -230,7 +239,7 @@ const bigProjects = {
       image: require("./assets/images/arduinoTetris.jpg"),
       projectName: "Arduino Tetris",
       projectDesc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Embedded System Hardware Build using Arduino Mega, LED Matrix, SNES controller, EEPROM, and LCD Screen. \n Developed and rendered a Tetris game on the LED Matrix, integrated SNES controller support for block manipulation, and utilized EEPROM to store the user’s last played stage, retaining progress after power-off",
       footerLink: [
         {
           name: "Visit Github",
@@ -240,8 +249,9 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/UCRList.png"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "UCR Craiglist",
+      projectDesc:
+        "Developed a website for UCR students to trade used goods, featuring a search bar to help users find items. Implemented email verification using NodeMailer to restrict access to @ucr.edu accounts and performed unit testing with Jest to ensure functionality of key features in User.ts.",
       footerLink: [
         {
           name: "Visit Github",
@@ -251,8 +261,9 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/campusEvents.png"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Events over College Campuses",
+      projectDesc:
+        "Developed a website using Google Cloud Platform (GCP) that displays a map and directory of events/study groups happening on college campuses. Created a servlet to handle POST requests for event information and stored events in Datastore. Implemented a page to display individual events with an embedded map, utilizing the Google Maps library to show event locations.",
       footerLink: [
         {
           name: "Visit Website",

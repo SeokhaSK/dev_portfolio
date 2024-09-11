@@ -15,6 +15,8 @@ export default function SoftwareSkill() {
                 name={skills.skillName}
               >
                 <i className={skills.fontAwesomeClassname}></i>
+                {/* <i className="fa-brands fa-flutter"></i>
+                <i className="fa-brands fa-aws"></i> */}
                 <p>{skills.skillName}</p>
               </li>
             );
@@ -22,5 +24,6 @@ export default function SoftwareSkill() {
         </ul>
       </div>
     </div>
+    // <i class="fa-brands fa-flutter"></i>
   );
 }

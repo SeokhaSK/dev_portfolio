@@ -11,6 +11,7 @@
   line-height: 24px;
   font-weight: 700;
   margin: 15px 0 0 0;
+  text-align: center;
 }
 .card-subtitle {
   color: $cardSubtitle;
@@ -41,7 +42,8 @@
 }
 
 .project-detail {
-  text-align: center;
+  white-space: pre-line;
+  text-align: left;
 }
 .project-card-light:hover {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
