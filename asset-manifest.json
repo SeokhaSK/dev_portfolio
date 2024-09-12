@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dev_portfolio/static/css/main.13ee6e20.css",
-    "main.js": "/dev_portfolio/static/js/main.50efca0f.js",
+    "main.css": "/dev_portfolio/static/css/main.a1982bb1.css",
+    "main.js": "/dev_portfolio/static/js/main.8606e4d8.js",
     "static/css/64.bba8fa55.chunk.css": "/dev_portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/dev_portfolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/dev_portfolio/static/css/769.b3cbb36b.chunk.css",
@@ -9,11 +9,11 @@
     "static/media/UCRList.png": "/dev_portfolio/static/media/UCRList.9ba611c6353e02798ebc.png",
     "static/media/campusEvents.png": "/dev_portfolio/static/media/campusEvents.783c63815df7bc7319a8.png",
     "static/media/arduinoTetris.jpg": "/dev_portfolio/static/media/arduinoTetris.a18b39c700516a360393.jpg",
+    "static/media/Web_Photo_Editor.jpg": "/dev_portfolio/static/media/Web_Photo_Editor.e9bb08fd735ec4099f70.jpg",
     "static/media/randomGenPic.jpg": "/dev_portfolio/static/media/randomGenPic.334d6920fa3918b41d6a.jpg",
     "static/media/Montserrat-Regular.ttf": "/dev_portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Seokha.jpeg": "/dev_portfolio/static/media/Seokha.e2dba499761503869d4c.jpeg",
     "static/media/Agustina.woff": "/dev_portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
-    "static/media/SMC_Logo.png": "/dev_portfolio/static/media/SMC_Logo.e70006faa0fe2f0063e1.png",
     "static/media/manOnTable.svg": "/dev_portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/contactMailDark.svg": "/dev_portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/dev_portfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
@@ -26,15 +26,15 @@
     "static/media/pwaLogo.webp": "/dev_portfolio/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "index.html": "/dev_portfolio/index.html",
     "static/media/talksCardBack.svg": "/dev_portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.13ee6e20.css.map": "/dev_portfolio/static/css/main.13ee6e20.css.map",
-    "main.50efca0f.js.map": "/dev_portfolio/static/js/main.50efca0f.js.map",
+    "main.a1982bb1.css.map": "/dev_portfolio/static/css/main.a1982bb1.css.map",
+    "main.8606e4d8.js.map": "/dev_portfolio/static/js/main.8606e4d8.js.map",
     "64.bba8fa55.chunk.css.map": "/dev_portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/dev_portfolio/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/dev_portfolio/static/css/769.b3cbb36b.chunk.css.map",
     "769.bda0d7b7.chunk.js.map": "/dev_portfolio/static/js/769.bda0d7b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13ee6e20.css",
-    "static/js/main.50efca0f.js"
+    "static/css/main.a1982bb1.css",
+    "static/js/main.8606e4d8.js"
   ]
 }
